@@ -1,4 +1,5 @@
 #lang racket
+(require rackunit)
 
 (define solution
   (/ (+ 5
@@ -13,4 +14,4 @@
            2)
         (- 2
            7))))
-solution
+(check-equal? solution -37/150)

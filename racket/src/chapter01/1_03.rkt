@@ -1,4 +1,5 @@
 #lang racket
+(require rackunit)
 
 (define (sum-of-max a b c)
   (cond ((and
@@ -14,6 +15,6 @@
            (> c b)
            (* a c)))
         ))
-(sum-of-max 3 2 1) ;6
-(sum-of-max 3 6 8) ;48
-(sum-of-max 9 6 8) ;72
+(check-equal? (sum-of-max 3 2 1) 6);6
+(check-equal? (sum-of-max 3 6 8) 48);48
+(check-equal? (sum-of-max 9 6 8) 72);72
