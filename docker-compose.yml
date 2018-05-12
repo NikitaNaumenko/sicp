@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  racket:
+    build:
+      context: racket
+      dockerfile: Dockerfile
+    volumes:
+      - "./racket/src/:/usr/sicp/racket/src"
+

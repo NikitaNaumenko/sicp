@@ -7,5 +7,5 @@
   (if (= x 0)
       0
       y))
-(test 0 (p)) ; racket infinity loop
-(test 0 (p)) ; lazy 0
+; (test 0 (p)) ; standart racket interpreter -> infinity loop
+; (test 0 (p)) ; lazy racket interpreter -> 0
