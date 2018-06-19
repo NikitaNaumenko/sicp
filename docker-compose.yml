@@ -7,4 +7,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - "./racket/src/:/usr/sicp/racket/src"
+      - "./racket/test/:/usr/sicp/racket/test"
 
