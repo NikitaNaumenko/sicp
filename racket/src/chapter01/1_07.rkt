@@ -40,5 +40,5 @@
         (sqrt-iter (improve guess) guess)))
 
   (sqrt-iter 1.0 0.0))
-(improved-sqrt 9.0)
+(improved-sqrt 8.0)
 
