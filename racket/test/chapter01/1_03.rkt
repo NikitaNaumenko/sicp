@@ -1,7 +1,7 @@
 #lang racket
 
 (require rackunit)
-(require (file "/usr/sicp/racket/src/chapter01/1_03.rkt"))
+(require (file "../../src/chapter01/1_03.rkt"))
 
 (check-equal? (sum-of-max 3 2 1) 6);6
 (check-equal? (sum-of-max 3 6 8) 48);48
