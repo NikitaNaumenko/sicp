@@ -1,5 +1,6 @@
 #lang racket
 (require rackunit)
+(provide sum-of-max)
 
 (define (sum-of-max a b c)
   (cond ((and

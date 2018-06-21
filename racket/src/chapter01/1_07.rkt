@@ -1,6 +1,6 @@
 #lang racket
 (require rackunit)
-
+(provide sqrt improved-sqrt)
 #| Task from chapter 1.1.7 |#
 (define (sqrt x)
   (define (average x y)
@@ -40,5 +40,4 @@
         (sqrt-iter (improve guess) guess)))
 
   (sqrt-iter 1.0 0.0))
-(improved-sqrt 8.0)
 

@@ -1,5 +1,6 @@
 #lang racket
 (require rackunit)
+(provide a-plus-abs-b)
 
 (define (a-plus-abs-b a b)
   (
@@ -7,7 +8,3 @@
      (> b 0) + -)
    a b)
   )
-
-(check-equal? (a-plus-abs-b 2 -1) 3)
-(check-equal? (a-plus-abs-b 2 1) 3)
-
