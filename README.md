@@ -1,7 +1,7 @@
 SICP
 ====
 
-![SICP](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fskilldrick.co.uk%2Fwp-content%2Fuploads%2F2011%2F04%2Fsicp-cover.jpg&f=1)
+![SICP](https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2F582b62c6e6fea16ed2dc1973073d4cd64f72e7d0.jpg&f=1)
 ### Содержание
 
 - [Глава 1](./doc/index.md#Глава-1-Построение-абстракций-с-помощью-процедур)
