@@ -1,5 +1,4 @@
 #lang racket
-(require rackunit)
 (provide sqrt improved-sqrt)
 #| Task from chapter 1.1.7 |#
 (define (sqrt x)

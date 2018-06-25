@@ -1,5 +1,4 @@
 #lang racket
-(require rackunit)
 
 (define (new-if predicate then-clause else-clause)
   (cond (predicate then-clause)
