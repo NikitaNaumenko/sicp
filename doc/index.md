@@ -14,3 +14,7 @@
   * [Упражнение 1.7](./chapter01/exercise_1_07.md)
   * [Упражнение 1.8](./chapter01/exercise_1_08.md)
   * [Упражнение 1.9](./chapter01/exercise_1_09.md)
+  * [Упражнение 1.10](./chapter01/exercise_1_10.md)
+  * [Упражнение 1.11](./chapter01/exercise_1_11.md)
+  * [Упражнение 1.12](./chapter01/exercise_1_12.md)
+  * [Упражнение 1.13](./chapter01/exercise_1_13.md)
