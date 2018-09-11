@@ -1,5 +1,6 @@
 #lang racket
 (provide count-change)
+
 (define (count-change amount)
   (cc amount 5))
 
