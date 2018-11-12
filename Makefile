@@ -1,15 +1,13 @@
 USER = "$(shell id -u):$(shell id -g)"
 
-racket-up:
+start:
 	docker-compose up
-racket-build:
+build:
 	docker-compose build
-# racket-test:
-# 	docker-compose run --user=$(USER) racket raco test src
-racket-bash:
+bash:
 	docker-compose run --user=$(USER) racket bash
-racket-run-file:
+run-file:
 	docker-compose run racket racket src/chapter01/1_07.rkt
-racket-test:
+test:
 	docker-compose run --user=$(USER) racket raco test test
 
