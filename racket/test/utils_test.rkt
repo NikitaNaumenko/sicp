@@ -1,0 +1,17 @@
+#lang racket
+(require rackunit)
+(require "../src/utils.rkt")
+
+(check-equal? (square 5) 25)
+(check-equal? (square 3) 9)
+(check-equal? (square 9) 81)
+(check-equal? (even? 5) false)
+(check-equal? (even? 4) true)
+(check-equal? (even? 13) false)
+(check-equal? (even? 18) true)
+(check-equal? (zero? 0) true)
+(check-equal? (zero? 1) false)
+(check-equal? (zero? 3) false)
+(check-equal? (positive? 5) true)
+(check-equal? (positive? -1) false)
+(check-equal? (positive? 8) true)

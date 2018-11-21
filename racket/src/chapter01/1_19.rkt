@@ -1,16 +1,12 @@
 #lang racket
 (provide solution)
 
+(require "../../src/utils.rkt")
+
 (define (solution n)
   (fib-iter 1 0 0 1 n))
 
 (define (fib-iter a b p q count)
-  (define (even? n)
-    (= (remainder n 2) 0))
-
-  (define (square n)
-    (* n n))
-
   (cond ((= count 0 ) b)
         ((even? count)
          (fib-iter a

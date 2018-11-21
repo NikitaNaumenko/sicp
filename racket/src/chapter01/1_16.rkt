@@ -1,8 +1,9 @@
 #lang racket
 (provide fast-expt)
 
+(require "../../src/utils.rkt")
+
 (define (fast-expt b n)
-  (define (even? number) (= (remainder number 2) 0))
   (define (square n) (* n n))
   (define (iter b n acc)
     (cond ((= n 0) acc)
