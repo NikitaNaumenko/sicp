@@ -23,4 +23,5 @@
   * [Упражнение 1.16](./chapter01/exercise_1_16.md)
   * [Упражнение 1.17](./chapter01/exercise_1_17.md)
   * [Упражнение 1.18](./chapter01/exercise_1_18.md)
-  *  [Упражнение 1.19](./chapter01/exercise_1_19.md)
+  * [Упражнение 1.19](./chapter01/exercise_1_19.md)
+  * [Упражнение 1.19](./chapter01/exercise_1_20.md)

@@ -5,4 +5,3 @@
 
 (check-equal? (a-plus-abs-b 2 -1) 3)
 (check-equal? (a-plus-abs-b 2 1) 3)
-
