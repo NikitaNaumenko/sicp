@@ -1,0 +1,32 @@
+---
+
+- hosts: localhost
+  gather_facts: false
+  vars:
+    solution_name: "../racket/src/chapter_{{ chapter }}/exercise_{{ exc }}.rkt"
+    test_name: "../racket/test/chapter_{{ chapter }}/exercise_{{ exc }}.rkt"
+    doc_name: "../racket/doc/chapter_{{ chapter }}/exercise_{{ exc }}.md"
+  tasks:
+    - name: Create directory test
+      file:
+        path: "../racket/test/chapter_{{ chapter }}"
+        state: directory
+    - name: Create directory doc
+      file:
+        path: "../racket/doc/chapter_{{ chapter }}"
+        state: directory
+    - name: Create directory src
+      file:
+        path: "../racket/src/chapter_{{ chapter }}"
+        state: directory
+    - name: Create exercise
+      template:
+        src: "./templates/{{ item.source }}"
+        dest: "{{ item.dest }}"
+        force: no
+      with_items:
+        - { source: "exercise.rkt", dest: "{{ solution_name }}" }
+        - { source: "test.rkt", dest: "{{ test_name }}" }
+        - { source: "doc.md", dest: "{{ doc_name }}" }
+
+
